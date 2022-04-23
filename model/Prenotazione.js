@@ -2,6 +2,8 @@ const { listPrenotazione, prenotazioneExistById, getPrenotazioneById, insertPren
 const { logger } = require('../common/logging');
 
 
+//AGGIUNGERE LA LOGICA: CHECK SEDE e CHECK PERSONA: IF NOT EXISTS = Scatta la mannaia
+
 class Prenotazione {
     constructor(p) {
         if (p) {
